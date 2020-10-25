@@ -1,0 +1,15 @@
+
+/* Class = "UITextField"; placeholder = "Nouvelle adresse mail"; ObjectID = "INY-Mb-im8"; */
+"INY-Mb-im8.placeholder" = "Nouvelle adresse mail";
+
+/* Class = "UIButton"; normalTitle = "Voir les adresses mail supprimées"; ObjectID = "Sd7-ae-p9A"; */
+"Sd7-ae-p9A.normalTitle" = "Voir les adresses mail supprimées";
+
+/* Class = "UIButton"; normalTitle = "Enregistrer"; ObjectID = "UtG-B2-fxu"; */
+"UtG-B2-fxu.normalTitle" = "Enregistrer";
+
+/* Class = "UIButton"; normalTitle = "Copier l'adresse mail selectionnée"; ObjectID = "qxU-45-rTT"; */
+"qxU-45-rTT.normalTitle" = "Copier l'adresse mail selectionnée";
+
+/* Class = "UILabel"; text = "Les adresses mail supprimées"; ObjectID = "y1f-Vf-s09"; */
+"y1f-Vf-s09.text" = "Les adresses mail supprimées";
