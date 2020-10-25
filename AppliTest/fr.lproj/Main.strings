@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "cliquer sur «confirmer» pour ajouter cette adresse mail"; ObjectID = "6bo-W1-wch"; */
+"6bo-W1-wch.text" = "cliquer sur «confirmer» pour ajouter cette adresse mail";
+
+/* Class = "UITextField"; placeholder = "Nouvelle adresse mail"; ObjectID = "INY-Mb-im8"; */
+"INY-Mb-im8.placeholder" = "Nouvelle adresse mail";
+
+/* Class = "UIButton"; normalTitle = "Copier l'adresse mail sélectionnée"; ObjectID = "JrR-vP-t8E"; */
+"JrR-vP-t8E.normalTitle" = "Copier l'adresse mail sélectionnée";
+
+/* Class = "UIButton"; normalTitle = "Enregistrer"; ObjectID = "UtG-B2-fxu"; */
+"UtG-B2-fxu.normalTitle" = "Enregistrer";
+
+/* Class = "UIButton"; normalTitle = "Voir les adresses mail supprimées"; ObjectID = "ZJM-fa-07C"; */
+"ZJM-fa-07C.normalTitle" = "Voir les adresses mail supprimées";
+
+/* Class = "UIButton"; normalTitle = "Annuler"; ObjectID = "flG-6d-qoh"; */
+"flG-6d-qoh.normalTitle" = "Annuler";
+
+/* Class = "UILabel"; text = "addressmail@domaine.com"; ObjectID = "gAI-Oq-r3F"; */
+"gAI-Oq-r3F.text" = "addressmail@domaine.com";
+
+/* Class = "UILabel"; text = "Vous souhaitez ajouter l'adresse mail suivante :"; ObjectID = "rNG-UW-w0a"; */
+"rNG-UW-w0a.text" = "Vous souhaitez ajouter l'adresse mail suivante :";
+
+/* Class = "UIButton"; normalTitle = "Confirmer"; ObjectID = "vV0-bh-WyF"; */
+"vV0-bh-WyF.normalTitle" = "Confirmer";
+
+/* Class = "UILabel"; text = "Les adresses mail supprimées"; ObjectID = "y1f-Vf-s09"; */
+"y1f-Vf-s09.text" = "Les adresses mail supprimées";

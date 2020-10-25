@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B3222E062543266F0005A244 /* ApliTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApliTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3222E062543266F0005A244 /* AppliTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppliTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3222E092543266F0005A244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3222E0B2543266F0005A244 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B3222E0D2543266F0005A244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +34,8 @@
 		B3331F652543450F00E5F557 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		B3331F662543558900E5F557 /* ConfirmAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmAddViewController.swift; sourceTree = "<group>"; };
 		B3331F682543C24D00E5F557 /* EraseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EraseViewController.swift; sourceTree = "<group>"; };
+		B36AFF5725463DFC007DC891 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		B36AFF5825463DFC007DC891 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +52,7 @@
 		B3222DFD2543266F0005A244 = {
 			isa = PBXGroup;
 			children = (
-				B3222E082543266F0005A244 /* ApliTest */,
+				B3222E082543266F0005A244 /* AppliTest */,
 				B3222E072543266F0005A244 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,12 +60,12 @@
 		B3222E072543266F0005A244 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B3222E062543266F0005A244 /* ApliTest.app */,
+				B3222E062543266F0005A244 /* AppliTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B3222E082543266F0005A244 /* ApliTest */ = {
+		B3222E082543266F0005A244 /* AppliTest */ = {
 			isa = PBXGroup;
 			children = (
 				B3222E092543266F0005A244 /* AppDelegate.swift */,
@@ -77,7 +79,7 @@
 				B3331F662543558900E5F557 /* ConfirmAddViewController.swift */,
 				B3331F682543C24D00E5F557 /* EraseViewController.swift */,
 			);
-			path = ApliTest;
+			path = AppliTest;
 			sourceTree = "<group>";
 		};
 		B3222E2725433D1B0005A244 /* Class */ = {
@@ -92,9 +94,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B3222E052543266F0005A244 /* ApliTest */ = {
+		B3222E052543266F0005A244 /* AppliTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3222E1A254326700005A244 /* Build configuration list for PBXNativeTarget "ApliTest" */;
+			buildConfigurationList = B3222E1A254326700005A244 /* Build configuration list for PBXNativeTarget "AppliTest" */;
 			buildPhases = (
 				B3222E022543266F0005A244 /* Sources */,
 				B3222E032543266F0005A244 /* Frameworks */,
@@ -104,9 +106,9 @@
 			);
 			dependencies = (
 			);
-			name = ApliTest;
-			productName = ApliTest;
-			productReference = B3222E062543266F0005A244 /* ApliTest.app */;
+			name = AppliTest;
+			productName = AppliTest;
+			productReference = B3222E062543266F0005A244 /* AppliTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,20 +126,21 @@
 					};
 				};
 			};
-			buildConfigurationList = B3222E012543266F0005A244 /* Build configuration list for PBXProject "ApliTest" */;
+			buildConfigurationList = B3222E012543266F0005A244 /* Build configuration list for PBXProject "AppliTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = B3222DFD2543266F0005A244;
 			productRefGroup = B3222E072543266F0005A244 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B3222E052543266F0005A244 /* ApliTest */,
+				B3222E052543266F0005A244 /* AppliTest */,
 			);
 		};
 /* End PBXProject section */
@@ -178,6 +181,7 @@
 			children = (
 				B3222E102543266F0005A244 /* Base */,
 				B3331F632543450500E5F557 /* en */,
+				B36AFF5825463DFC007DC891 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -187,6 +191,7 @@
 			children = (
 				B3222E15254326700005A244 /* Base */,
 				B3331F652543450F00E5F557 /* en */,
+				B36AFF5725463DFC007DC891 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -315,13 +320,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ApliTest/Info.plist;
+				DEVELOPMENT_TEAM = G6BPASNB8L;
+				INFOPLIST_FILE = AppliTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sebastienguerneve.ApliTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastienguerneve.AppliTest;
+				PRODUCT_NAME = AppliTest;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -332,13 +338,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ApliTest/Info.plist;
+				DEVELOPMENT_TEAM = G6BPASNB8L;
+				INFOPLIST_FILE = AppliTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sebastienguerneve.ApliTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastienguerneve.AppliTest;
+				PRODUCT_NAME = AppliTest;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -347,7 +354,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B3222E012543266F0005A244 /* Build configuration list for PBXProject "ApliTest" */ = {
+		B3222E012543266F0005A244 /* Build configuration list for PBXProject "AppliTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3222E18254326700005A244 /* Debug */,
@@ -356,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3222E1A254326700005A244 /* Build configuration list for PBXNativeTarget "ApliTest" */ = {
+		B3222E1A254326700005A244 /* Build configuration list for PBXNativeTarget "AppliTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3222E1B254326700005A244 /* Debug */,

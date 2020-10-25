@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ApliTest
+//  AppliTest
 //
 //  Created by GUERNEVÉ Sébastien on 23/10/2020.
 //  Copyright © 2020 GUERNEVÉ Sébastien. All rights reserved.
