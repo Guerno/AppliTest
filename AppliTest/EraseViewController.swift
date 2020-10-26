@@ -15,7 +15,7 @@ class EraseViewController: UIViewController, UITableViewDataSource {
     let _ERASED_MAIL = eraseMail()
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        _ERASED_MAIL.count()
+        return _ERASED_MAIL.count()
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
