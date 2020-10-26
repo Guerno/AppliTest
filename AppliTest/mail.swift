@@ -42,7 +42,4 @@ class mail {
         UserDefaults.standard.set(_listMail, forKey: _USER_DEFAULT_STANDARD)
     }
 }
-// create Master Branch
-func test () {
-    
-}
+//jdsvf
